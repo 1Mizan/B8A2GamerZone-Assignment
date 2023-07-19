@@ -1,0 +1,242 @@
+/* shared items */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #FF42A5;
+}
+
+.section-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-bottom: 0px;
+    margin-top: 142px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* Navbar related CSS */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+}
+
+.left h3 {
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    /* height: 20px; */
+    padding-right: 20px;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+nav ul {
+    display: flex;
+    /* flex-direction: row; */
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+nav ul li {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    align-items: center;
+    color: #3C354F;
+
+}
+
+nav ul li img {
+    height: 15px;
+}
+
+#shadow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px;
+}
+
+.Pink {
+    color: var(--primary-color);
+}
+
+/* Banner related css */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.banner-content-child {
+    align-items: center;
+    width: 100%;
+    margin-left: 11rem;
+}
+
+.banner-content {
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    align-items: center;
+    background-image: url("/images/Group\ 14.png");
+    width: 100%;
+
+}
+
+.button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border: none;
+}
+
+.btn-pink {
+    background-color: var(--primary-color);
+    margin-right: 20px;
+
+}
+
+.btn-blue {
+    background: #4EC5F7;
+}
+
+.bold {
+    /* text-align: center; */
+    font-size: 5.93rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(249, 72, 178, 1);
+    /* , rgba(135,88,241,1) */
+    margin-top: 0px;
+    padding-top: 0px;
+
+
+}
+
+.banner-content ul {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    list-style: none;
+}
+
+/* SEction-Online games related css */
+.section-title-O {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.purple {
+    color: #8758F1;
+}
+.image-container{
+    display: grid;
+    /* justify-content: space-around; */
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Media Query */
+@media screen and (max-width:576px) {
+
+    nav,
+    nav ul,
+    .left,
+    .right,
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .right {
+        margin-left: auto;
+
+    }
+
+    .left {
+        margin-right: 90px;
+    }
+
+    .banner-content-child {
+        margin-top: 0px;
+        margin-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner-img{
+        max-width: 425px;
+    }
+    .section-title-O{
+        text-align: center;
+    }
+
+}
+
+/* Tablet Media Query */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner {
+        flex-direction: column;
+    }
+    .image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
