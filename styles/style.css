@@ -321,6 +321,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
     margin-right: 30px;
+    margin-bottom: 40px ;
 
 
 }
@@ -356,8 +357,23 @@ footer {
 }
 #last{
     margin-top: 18px;
-}
+    display: flex;
+    justify-content: center;
+    
 
+}
+.last p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.la-1{
+    padding-right: 0px;
+}
+.la-2{
+    padding-left: 0px;
+}
 
 
 
@@ -401,6 +417,45 @@ footer {
 
     .section-title-O {
         text-align: center;
+    }
+    .social-medias{
+        display: block;
+        /* margin-left: 100px; */
+    }
+    .sm-2 ,.sm-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .keys, .last-games{
+        display: block;
+    }
+    .key-1,.key-2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .la-1,.la-2{
+        display: block;
+    }
+    .main-1,.main-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .main-2{
+        margin-top: 0px;
+    }
+    .main-1{
+        margin-bottom: 0px;
+    }
+    .image-container{
+        justify-items: center;
+    }
+    .big{
+        margin-left: 0px;
+    }
+    .feature{
+        flex-wrap: wrap;
     }
 
 }
