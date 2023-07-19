@@ -286,6 +286,80 @@ nav ul li img {
     color: var(--primary-color);
 }
 
+/* footer related css */
+footer {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background: #0B0223;
+
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle h3 {
+    font-size: 2.813rem;
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+
+}
+
+.keys a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 30px;
+
+
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.social-medias a {
+    padding-right: 30px;
+}
+
+.fa-brands {
+    font-size: 50px;
+    color: white;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.policy p{
+    padding-right: 30px;
+    margin-bottom: 0px;
+}
+#last{
+    margin-top: 18px;
+}
+
+
+
 
 
 /* Mobile Media Query */
