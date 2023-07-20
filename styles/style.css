@@ -396,7 +396,7 @@ footer {
 
 .policy {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 30px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
@@ -431,6 +431,7 @@ footer {
 .la-2 {
     padding-left: 0px;
 }
+
 
 
 
@@ -553,6 +554,9 @@ footer {
     }
     .games{
         margin-left: 80px;
+    }
+    .last-policy{
+        flex-direction: column;
     }
 
 }
