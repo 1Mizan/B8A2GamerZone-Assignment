@@ -99,6 +99,7 @@ nav ul li img {
 
 .Pink {
     color: var(--primary-color);
+
 }
 
 /* Banner related css */
@@ -148,8 +149,9 @@ nav ul li img {
     font-size: 5.93rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: rgba(249, 72, 178, 1);
-    /* , rgba(135,88,241,1) */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 0px;
     padding-top: 0px;
 
@@ -174,7 +176,12 @@ nav ul li img {
 }
 
 .purple {
-    color: #8758F1;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
 }
 
 .image-container {
@@ -297,7 +304,7 @@ nav ul li img {
     border-radius: 50px;
     background: #e5e2e2;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 10px;
 
 }
 
