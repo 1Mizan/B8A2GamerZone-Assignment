@@ -396,7 +396,7 @@ footer {
 
 .policy {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 30px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
@@ -422,6 +422,7 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+    padding-right: 30px;
 }
 
 .la-1 {
